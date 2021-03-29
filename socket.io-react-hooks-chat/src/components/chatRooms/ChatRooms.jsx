@@ -1,5 +1,5 @@
 import React from "react";
-import useChat from "./useChat";
+import useChat from "./UseChat";
 
 const ChatRooms = (props) => {
   const { roomId } = props.match.params; // Gets roomId from URL
